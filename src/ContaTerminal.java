@@ -11,10 +11,10 @@ public class ContaTerminal {
         String agencia, nomeCliente;
 
         System.out.print("Digite seu nome e sobrenome:\n>>");
-        nomeCliente = scanner.nextLine();
+        nomeCliente = scanner.nextLine(); //Lê toda a linha até o ENTER.
 
         System.out.print("\nDigite sua agência: (000-0)\n>>");
-        agencia = scanner.next();
+        agencia = scanner.next(); //Lê até o espaço ou ENTER.
 
         System.out.print("\nDigite o número da sua conta:(0000)\n>>");
         numero = scanner.nextInt();

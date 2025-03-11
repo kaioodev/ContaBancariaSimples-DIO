@@ -1,15 +1,14 @@
-import java.util.Scanner;
-import java.util.Locale;
+import java.util.Scanner; //importa a classe usada para ler a entrada de dados do usuário.
+import java.util.Locale; //determina formatação de numeros, datas... De uma determinada região.
 
 public class ContaTerminal {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner = new Scanner(System.in).useLocale(Locale.US); //cria um objeto que vai ler os dados do teclado(system.in)
 
         int numero;
-        String agencia;
-        String nomeCliente;
         double saldo;
+        String agencia, nomeCliente;
 
         System.out.print("Digite seu nome e sobrenome:\n>>");
         nomeCliente = scanner.nextLine();
@@ -23,7 +22,9 @@ public class ContaTerminal {
         System.out.print("\nDigite seu saldo:\n>>");
         saldo = scanner.nextDouble();
 
-        System.out.println("\nOlá " + nomeCliente + "! Obrigado por criar uma conta em nosso banco, sua agência é: " + agencia + ", conta: " + numero + " e seu saldo R$" + saldo + " já está disponível para saque.");
+        System.out.print("\nOlá " + nomeCliente + "! Obrigado por criar uma conta em nosso banco!");
+        System.out.print(" Sua agência é: " + agencia + ", conta: " + numero + " e seu saldo: R$ " + saldo);
+        System.out.println(" já está disponível para saque.");
 
 
 

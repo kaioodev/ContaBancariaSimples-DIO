@@ -1,3 +1,5 @@
+package DesafiosDIO.Basicos;
+
 import java.util.Scanner; //importa a classe usada para ler a entrada de dados do usuário.
 import java.util.Locale; //determina formatação de numeros, datas... De uma determinada região.
 
@@ -25,12 +27,6 @@ public class ContaTerminal {
         System.out.print("\nOlá " + nomeCliente + "! Obrigado por criar uma conta em nosso banco!");
         System.out.print(" Sua agência é: " + agencia + ", conta: " + numero + " e seu saldo: R$ " + saldo);
         System.out.println(" já está disponível para saque.");
-
-
-
-
-
-
 
     }
 }

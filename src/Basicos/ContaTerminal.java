@@ -1,4 +1,4 @@
-package DesafiosDIO.Basicos;
+package Basicos;
 
 import java.util.Scanner; //importa a classe usada para ler a entrada de dados do usuário.
 import java.util.Locale; //determina formatação de numeros, datas... De uma determinada região.

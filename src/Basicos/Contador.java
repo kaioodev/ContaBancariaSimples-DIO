@@ -1,4 +1,5 @@
-package DesafiosDIO.Basicos;
+package Basicos;
+
 import java.util.Scanner;
 
 public class Contador {
@@ -39,5 +40,5 @@ public class Contador {
         }
     }
 
-    static class ParametrosInvalidosException extends Exception {}
+    static class ParametrosInvalidosException extends Exception {} //crio uma exceção
 }
